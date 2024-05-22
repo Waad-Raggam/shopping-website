@@ -1,3 +1,48 @@
+.html,body {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: block;
+  font-family: "Cairo";
+  background-image: url('/public/shopping.jpg');;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+}
+
+.card1{
+  height: 100%;
+  width: 80%;
+  background-color: #ea9ab2;
+}
+
+.card2{
+  height: 100%;
+  width: 80%;
+  background-color: #efcfe3;
+}
+
+.card3{
+  height: 100%;
+  width: 80%;
+  background-color: #eaf2d7;
+}
+
+.bg-primary{
+  background-color: #9cadce;
+}
+.bg-success{
+  background-color: #fcf4dd;
+}
+
+.bg-info{
+  background-color: #ddedea;
+}
+
 .App {
   text-align: center;
 }

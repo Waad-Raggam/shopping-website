@@ -6,28 +6,28 @@ const Landing = () => {
         <div className="container">
                 <div className="row text-center d-flex justify-content-center-mt-5">
                     <div className="col-sm-4">
-                        <div className="card" class="card1">
+                        <div className="card" class="rounded card1">
                             <div className="card-body">
                                 <i className="bi bi-phone text-center">
-                                    <h6 className="align-middle">smart phones</h6>
+                                    <h6 className="align-middle">الهواتف الذكية</h6>
                                 </i>
                             </div>
                         </div>
                     </div>
                     <div className="col-sm-4">
-                        <div className="card">
+                        <div className="card" class="rounded card2">
                             <div className="card-body">
                                 <i className="bi bi-phone text-center">
-                                    <h6 className="align-middle">smart phones</h6>
+                                    <h6 className="align-middle">قسم الأدوات المنزلية</h6>
                                 </i>
                             </div>
                         </div>
                     </div>
                     <div className="col-sm-4">
-                        <div className="card">
+                        <div className="card" class="rounded card3">
                             <div className="card-body">
                                 <i className="bi bi-phone text-center">
-                                    <h6 className="align-middle">smart phones</h6>
+                                    <h6 className="align-middle">قسم المفروشات</h6>
                                 </i>
                             </div>
                         </div>
