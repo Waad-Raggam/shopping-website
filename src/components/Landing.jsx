@@ -3,7 +3,7 @@ const Landing = () => {
     return (
         <>
         <MainLayout>
-        <div className="container">
+        <div className="container mt-5">
                 <div className="row text-center d-flex justify-content-center-mt-5">
                     <div className="col-sm-4">
                         <div className="card" class="rounded card1">
