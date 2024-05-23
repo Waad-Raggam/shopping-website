@@ -49,13 +49,14 @@ const MainLayouts = ({ children }) => {
             </main>
             <footer className="bg-body-tertiary text-center text-lg-start footer">
                 <div className="text-center text-white p-3" style={{
-                    backgroundColor: 'rgba(0, 0, 0, 0.5)', position: 'absolute', left: '0',
+                    backgroundColor: 'rgba(0, 0, 0, 0.5)', left: '0',
                     right: '0',
-                    bottom: '0'
                 }}>
                     here is my footer
                 </div>
             </footer>
+
+  
         </>
     );
 };

@@ -60,6 +60,26 @@ const Landing = () => {
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+                {/* About us */}
+                <section class="py-5">
+                    <div class="container">
+                        <div class="row  gx-4 text-end">
+                            
+                            <div class="col-md-6 ">
+                                <div class="ms-md-2 ms-lg-5">
+                                    <span class="text-muted"> أهلا بكم في متجرنا الإليكتروني</span>
+                                    <h2 class="display-5 fw-bold"> من نحن </h2>
+                                    <p class="lead"> شركة رائدة في مجال التجارة الإليكترونية نعتز بعملائنا وبثقتهم بنا .</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="ms-md-2 ms-lg-5">
+                                    <img class="img-fluid rounded-3" src="https://freefrontend.dev/assets/square.png" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </MainLayout>
         </>
     );
