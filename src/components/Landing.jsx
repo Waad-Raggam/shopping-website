@@ -80,7 +80,7 @@ const Landing = () => {
                             </div>
                             <div class="col-md-5">
                                 <div class="ms-md-2 ms-lg-5">
-                                    <img class="img-fluid rounded-3" src="https://freefrontend.dev/assets/square.png" /></div>
+                                    <img class="img-fluid rounded-3" src="./about us.jpg" /></div>
                             </div>
                         </div>
                     </div>
