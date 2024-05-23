@@ -9,7 +9,7 @@ import ListPhone from "./components/ListPhone";
 function App() {
   return (
     <div className="App">
-      <ListPhone/>
+      <Landing/>
     </div>
   );
 }
