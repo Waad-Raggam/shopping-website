@@ -39,6 +39,7 @@ const Landing = () => {
                 <br />
                 <h4>أفضل الإختيارات لك</h4>
                 {/* Carousel */}
+                <section>
                 <div id="carouselExampleDark" class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel" >
                     <div class="carousel-inner">
                         <div class="carousel-item active" dir="rtl">
@@ -63,6 +64,7 @@ const Landing = () => {
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+                </section>
                 {/* About us */}
                 <section class="py-5">
                     <div class="container">
