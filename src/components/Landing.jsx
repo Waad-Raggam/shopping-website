@@ -41,14 +41,17 @@ const Landing = () => {
                 {/* Carousel */}
                 <div id="carouselExampleDark" class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel" >
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item active" dir="rtl">
                             <img src="https://m.media-amazon.com/images/I/71yc5A1EavL._AC_UY218_.jpg" class="m-block" height="100"></img>
+                            <span className="badge bg-body-secondary text-dark">   سامسونج جوال جالكسي S24+  </span>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" dir="rtl">
                             <img src="https://m.media-amazon.com/images/I/51mABhlKICL._AC_UY218_.jpg" class="m-block" height="100"></img>
+                            <span className="badge bg-body-secondary text-dark"> جوجل هاتف ذكي بيكسل 6 </span>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" dir="rtl">
                             <img src="https://m.media-amazon.com/images/I/716dMJ9stNL._AC_UY218_.jpg " class="m-block" height="100"></img>
+                            <span className="badge bg-body-secondary text-dark"> سامسونج جوال جالكسي S23 FE بالذكاء الاصطناعي </span>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
