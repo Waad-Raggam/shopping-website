@@ -7,18 +7,23 @@ import Landing from "./components/Landing";
 import ListPhone from "./components/ListPhone";
 import DetailsProducts from "./components/DetailsProducts";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Provider } from "react-redux";
+import store from "./store";
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Landing/>}/>
-        <Route path='/phonesList' element={<ListPhone/>}/>
-        <Route path='/detailsProducts' element={<DetailsProducts/>}/>
-      </Routes>
-      </BrowserRouter>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Landing />} />
+            <Route path='/phonesList' element={<ListPhone />} />
+            <Route path='/detailsProducts' element={<DetailsProducts />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </Provider>
+
   );
 }
 

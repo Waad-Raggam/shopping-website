@@ -1,10 +1,13 @@
 import MainLayout from "../layouts/MainLayout";
 import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
 
 const DetailsProducts = () =>{
 
     const data = useLocation()
+
+    const dispatch = useDispatch()
 
     // const itemID = data.state.id;
     const [itemName, setItemName ] = useState("")
@@ -38,7 +41,7 @@ const DetailsProducts = () =>{
                                                     <br/>
                                                     {itemPrice} : السعر
                                                     <br/>
-                                                    <button>أضف الى السلة</button>
+                                                    <button onClick={()=>dispatch({type:'INCREMENT'})}>أضف الى السلة</button>
                                                 </div>
                                             </div>
                                         </div>

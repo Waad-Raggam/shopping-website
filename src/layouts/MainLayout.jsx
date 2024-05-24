@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 const MainLayouts = ({ children }) => {
+    const count = useSelector(state => state.counter);
     return (
         <>
             <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
@@ -38,6 +40,7 @@ const MainLayouts = ({ children }) => {
 
                     <div class="d-flex align-items-center">
                         <i class="bi bi-cart3"></i>
+                        <span className="badge bg-body-secondary text-dark">   {count}  </span>
                     </div>
                 </div>
             </nav>
