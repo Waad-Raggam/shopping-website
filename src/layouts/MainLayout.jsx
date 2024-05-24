@@ -51,10 +51,9 @@ const MainLayouts = ({ children }) => {
             <footer className="bg-body-tertiary text-center text-lg-start footer">
                 <div className="text-center text-white p-3" style={{
                     backgroundColor: 'rgba(0, 0, 0, 0.5)', left: '0',
-                    right: '0',
+                    right: '0', bottom: '0', position: 'fixed'
                 }}>
-                    here is my footer
-                </div>
+                    Shopping website project                </div>
             </footer>
 
 
