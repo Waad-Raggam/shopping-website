@@ -1,13 +1,15 @@
 import { useEffect, useState } from "react";
 import MainLayout from "../layouts/MainLayout";
+import axios from "axios";
 
 const TestFetch = () => {
     const[data, setData] = useState([])
 
     useEffect(()=>{
-        fetch('https://fakestoreapi.com/products')
-        .then(response=>response.json())
-        .then(data=>setData(data));
+        axios.get('https://fakestoreapi.com/products')
+        .then(response=>setData(data))
+        .catch(error=>console.error(error));
+        // .then(data=>setData(data));
     }, []); 
 
     return(
@@ -43,7 +45,7 @@ const TestFetch = () => {
                         </div>
                     </div>
                 </div>
-                </div>
+                </div> 
                 
             ))
         }
