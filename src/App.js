@@ -9,6 +9,7 @@ import DetailsProducts from "./components/DetailsProducts";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./store";
+import TestFetch from "./components/TestFetch";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path='/' element={<Landing />} />
             <Route path='/phonesList' element={<ListPhone />} />
             <Route path='/detailsProducts' element={<DetailsProducts />} />
+            <Route path='/fetch' element={<TestFetch />} />
           </Routes>
         </BrowserRouter>
       </div>
