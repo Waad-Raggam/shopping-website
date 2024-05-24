@@ -1,4 +1,5 @@
-
+import MainLayout from "../layouts/MainLayout";
+import { Link } from "react-router-dom";
 const ListPhone = () => {
     const Phone = [
         {
@@ -20,7 +21,8 @@ const ListPhone = () => {
     ];
     return (
         <>
-         <div className="container">
+        <MainLayout>
+        <div className="container">
             <div className="row">
                 <div className="col-sm-8">{
                     Phone.map((item)=>(
@@ -47,6 +49,7 @@ const ListPhone = () => {
                 }</div>
             </div>
         </div>
+        </MainLayout>
         </>
     );
 }

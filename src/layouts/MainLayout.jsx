@@ -1,13 +1,10 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const MainLayouts = ({ children }) => {
     return (
         <>
-
             <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
-
                 <div class="container-fluid">
-
                     <button
                         data-mdb-collapse-init
                         class="navbar-toggler"
@@ -28,6 +25,11 @@ const MainLayouts = ({ children }) => {
                     </div>
 
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <Link to='/'>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">الصفحة الرئيسية</a>
+                            </li>
+                        </Link>
                         <li class="nav-item">
                             <a class="nav-link" href="#">تسجيل حساب جديد</a>
                         </li>
@@ -39,9 +41,7 @@ const MainLayouts = ({ children }) => {
                     <div class="d-flex align-items-center">
                         <i class="bi bi-cart3"></i>
                     </div>
-
                 </div>
-
             </nav>
 
             <main>
@@ -56,7 +56,7 @@ const MainLayouts = ({ children }) => {
                 </div>
             </footer>
 
-  
+
         </>
     );
 };
