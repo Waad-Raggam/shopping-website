@@ -5,6 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Landing from "./components/Landing";
 import ListPhone from "./components/ListPhone";
+import DetailsProducts from "./components/DetailsProducts";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Landing/>}/>
         <Route path='/phonesList' element={<ListPhone/>}/>
+        <Route path='/detailsProducts' element={<DetailsProducts/>}/>
       </Routes>
       </BrowserRouter>
     </div>
