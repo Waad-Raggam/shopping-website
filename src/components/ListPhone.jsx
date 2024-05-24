@@ -37,7 +37,7 @@ const ListPhone = () => {
                                         <h1 className="badge bg-danger">{item.price}</h1>
                                         <div className="row">
                                             <div className="col">
-                                                <Link className="btn btn-primary" to='/detailsProducts'>تفاصيل</Link>
+                                                <Link className="btn btn-primary" state={item}to='/detailsProducts'>تفاصيل</Link>
                                             </div>
                                         </div>
                                     </div>
