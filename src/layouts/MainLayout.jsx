@@ -25,11 +25,9 @@ const MainLayouts = ({ children }) => {
                     </div>
 
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <Link to='/'>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">الصفحة الرئيسية</a>
-                            </li>
-                        </Link>
+                        <li class="nav-item">
+                            <Link class="nav-link" to="/">الصفحة الرئيسية</Link>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">تسجيل حساب جديد</a>
                         </li>
