@@ -1,11 +1,22 @@
 import MainLayout from "../layouts/MainLayout";
 import { useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
+
 const DetailsProducts = () =>{
-    const location = useLocation()
-    const itemID = location.state.id;
-    const itemName = location.state.name;
-    const itemPrice = location.state.price;
-    const itemImage = location.state.img;
+
+    const data = useLocation()
+
+    // const itemID = data.state.id;
+    const [itemName, setItemName ] = useState("")
+    const [itemPrice, setItemPrice ] = useState("")
+    const [itemImage, setItemImage ] = useState("")
+
+    useEffect(()=>(
+        setItemName(data.state.name),
+        setItemPrice(data.state.price),
+        setItemImage(data.state.img)
+    ))
+
     return(
         <>
         <MainLayout>
